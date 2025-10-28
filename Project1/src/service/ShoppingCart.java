@@ -1,7 +1,5 @@
 package service;
 
-import model.Apple;
-import model.Discountable;
 import model.Food;
 
 
