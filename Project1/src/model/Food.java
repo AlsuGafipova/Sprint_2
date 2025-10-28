@@ -1,6 +1,11 @@
 package model;
 
-public class Food {
+import model.constants.Colour;
+import model.constants.Discount;
+
+import java.util.Objects;
+
+public class Food implements Discountable{
     protected int amount;
     protected  double price;
     protected  boolean isVegetarian;
@@ -9,6 +14,11 @@ public class Food {
         this.amount = amount;
         this.price = price;
         this.isVegetarian = isVegetarian;
+    }
+
+    @Override
+    public double getDiscount(){
+        return 0;
     }
 
     public int getAmount(){

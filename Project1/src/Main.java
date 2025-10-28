@@ -1,7 +1,7 @@
 import model.*;
 import model.constants.Colour;
 import service.ShoppingCart;
-//
+
 public class Main {
     public static void main(String[] args) {
         Food meat = new Meat(5, 100);
